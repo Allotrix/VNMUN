@@ -20,6 +20,11 @@ a {
   transition: 0.5s;
 }
 
+.img-dimension{
+  width: auto;
+  margin-bottom: 20px;
+}
+
 a:hover,
 a:active,
 a:focus {

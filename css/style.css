@@ -123,7 +123,7 @@ h6 {
 --------------------------------*/
 
 .section-header {
-  margin-bottom: 60px;
+  
   position: relative;
   padding-bottom: 20px;
 }
@@ -820,6 +820,62 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 10px;
 }
 
+.btn-container {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.about-btn,
+.btn-primary {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 36px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #3adcbe;
+  background-color: transparent;
+  border: 2px solid #3adcbe;
+  outline: none; 
+ 
+}
+
+.btn-primary:hover {
+  background: #3adcbe;
+  color: #fff;
+  border: 2px solid #3adcbe;
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+
+
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -834,6 +890,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   border-bottom: 0;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 #schedule .nav-tabs li {

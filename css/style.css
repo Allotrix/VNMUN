@@ -32,8 +32,9 @@ a {
 
 }
 .img-dimension{
-  width: auto;
+  width: 540px;
   margin-bottom: 20px;
+  margin-left: 60px;
 }
 
 a:hover,

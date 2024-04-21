@@ -125,7 +125,8 @@ h6 {
 .section-header {
   
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .section-header::before {
@@ -845,7 +846,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .btn-primary:hover {
-  background: #3adcbe;
+  background: rgb(58, 220, 190);
   color: #fff;
   border: 2px solid #3adcbe;
 }

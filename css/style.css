@@ -851,6 +851,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #3adcbe;
 }
 
+
+
 @keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
